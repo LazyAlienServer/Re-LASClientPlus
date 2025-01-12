@@ -72,6 +72,13 @@
       "cape": "http://161.35.130.99/capes/{USERNAME}.png"
     },
     {
+      "name": "LabyMod",
+      "type": "Legacy",
+      "checkPNG": false,
+      "model": "auto",
+      "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}"
+    },
+    {
       "name": "Cosmetica",
       "type": "Legacy",
       "checkPNG": false,
