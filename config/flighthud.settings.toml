@@ -1,0 +1,14 @@
+
+[HUDSettings]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	rollSmoothing = 0.85
+	#Range: 1 ~ 40
+	hudRefreshInterval = 5
+	#Allowed Values: NONE, MIN, FULL
+	displayModeWhenNotFlying = "NONE"
+	#Allowed Values: NONE, MIN, FULL
+	displayModeWhenFlying = "FULL"
+	calculateRoll = true
+	#Range: 0.0 ~ 1.7976931348623157E308
+	rollTurningForce = 1.25
+

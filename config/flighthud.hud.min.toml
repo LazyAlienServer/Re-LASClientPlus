@@ -1,0 +1,73 @@
+
+[HudDisplay-MIN]
+
+	[HudDisplay-MIN.Speed]
+		speed_showScale = false
+		speed_showReadout = true
+
+	[HudDisplay-MIN.Heading]
+		heading_showScale = false
+		heading_showReadout = true
+
+	[HudDisplay-MIN.FlightPath]
+		flightPath_show = false
+
+	[HudDisplay-MIN.General]
+		#Range: 0 ~ 255
+		color_blue = 0
+		#Range: -10.0 ~ 10.0
+		yOffset = 0.0
+		#Range: 0 ~ 255
+		color_red = 0
+		#Range: -10.0 ~ 10.0
+		xOffset = 0.0
+		#Range: 0.1 ~ 3.0
+		thickness = 1.0
+		#Range: 0.1 ~ 10.0
+		width = 0.6
+		#Range: 0.1 ~ 10.0
+		scale = 1.0
+		#Range: 0 ~ 255
+		color_green = 255
+		#Range: 0.1 ~ 10.0
+		height = 0.6
+
+	[HudDisplay-MIN.PitchLadder]
+		#Range: 1 ~ 20
+		pitchLadder_degreesPerBar = 20
+		#Range: -360.0 ~ 360.0
+		pitchLadder_optimumClimbAngle = 0.0
+		pitchLadder_showLadder = false
+		pitchLadder_showHorizon = false
+		pitchLadder_showRoll = true
+		pitchLadder_reverseRoll = false
+		#Range: -360.0 ~ 360.0
+		pitchLadder_optimumGlideAngle = 0.0
+
+	[HudDisplay-MIN.ElytraBombing]
+		#Range: 0.0 ~ 1.0
+		ebb_tnt_x = 0.6000000238418579
+		#Range: 0.0 ~ 1.0
+		ebb_tnt_y = 0.800000011920929
+		ebb_show_tnt_count = true
+
+	[HudDisplay-MIN.ElytraHealth]
+		#Range: 0.0 ~ 1.0
+		elytra_x = 0.5
+		elytra_showHealth = false
+		#Range: 0.0 ~ 1.0
+		elytra_y = 0.8
+
+	[HudDisplay-MIN.Location]
+		location_showReadout = true
+		#Range: 0.0 ~ 1.0
+		location_x = 0.2
+		#Range: 0.0 ~ 1.0
+		location_y = 0.8
+
+	[HudDisplay-MIN.Altitude]
+		altitude_showHeight = false
+		altitude_showScale = false
+		altitude_showGroundInfo = false
+		altitude_showReadout = true
+
